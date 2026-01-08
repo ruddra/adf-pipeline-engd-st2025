@@ -52,12 +52,18 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "Parquet1",
+						"referenceName": "ParquetCountries",
 						"type": "DatasetReference"
 					}
 				]
 			}
 		],
+		"parameters": {
+			"source": {
+				"type": "string",
+				"defaultValue": "https://raw.githubusercontent.com/umpirsky/country-list/refs/heads/master/data/en_US/country.csv"
+			}
+		},
 		"annotations": []
 	}
 }
