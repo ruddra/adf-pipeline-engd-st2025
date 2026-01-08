@@ -52,7 +52,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ParquetCountries",
+						"referenceName": "Parquet1",
 						"type": "DatasetReference"
 					}
 				]
